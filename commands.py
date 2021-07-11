@@ -19,7 +19,7 @@ class OpenCV():
     
     def OpenImage(self):
         self.ImageName = filedialog.askopenfilename(
-            initialdir = '/home/ahmad/الصور', 
+            initialdir = '/', 
             title = 'Select an image', 
             filetypes = (('All files', '*.*'), 
                          ('PNG images', '*.png'), 
